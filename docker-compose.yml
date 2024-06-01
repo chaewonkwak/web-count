@@ -7,5 +7,5 @@ services:
     depends_on:
       - redis
 
-    redis:
-      image: redis:6.0
+  redis:
+    image: redis:6.0
